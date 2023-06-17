@@ -1,0 +1,179 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+/*title*/
+
+#title
+{
+  padding-bottom: 30px;
+
+}
+.title-h1
+{
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 100px;
+
+
+}
+.navbar {
+    padding: 0 0 1rem 0;
+}
+
+.navbar-brand {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#navbarNav
+{
+  justify-content: flex-end;
+  padding-right: 70px;
+  /*don't known but unable to apply gap in this flex*/
+
+}
+
+/*features*/
+#features
+{
+  margin: 60px
+}
+/*testimonial*/
+
+#testimonial
+{
+  text-align: center;
+  background-color: #ef8171;
+
+}
+.carousel-item
+{
+  height: 550px;
+  padding: 7% 15% 7% 15%;
+  
+
+}
+.feedback
+{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.carousel-indicators
+{
+  margin-bottom: 1.5rem;
+}
+
+.dog-image
+{
+/*images are already circled*/
+border-radius: 100%;
+ width: 20%;
+ margin: 20px;
+}
+
+.name
+{
+  display: inline;
+    font-family: 'Permanent Marker', cursive;
+    color:white;
+
+}
+
+/*Press*/
+
+#press
+{
+  background-color: #ef8171;
+  padding-bottom: 3%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:70px;
+  padding-top:20px;
+
+}
+.content
+{
+  width:170px;
+
+
+}
+.container-pricing
+{
+  text-align: center;
+  padding-top: 20px;
+}
+
+/*cta*/
+#cta {
+    background-color: #ff4c68;
+
+    padding: 100px 15% 100px 15% ;
+
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+.lasth1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #fff;
+}
+.flex-cta
+{
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/*Footer*/
+#footer
+{
+  margin-bottom: 100px;
+}
+.social
+{
+  display: flex;
+  gap:20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.footer-image
+{
+  height: 30px;
+  width: 30px;
+}
+.footer-text
+{
+  text-align: center;
+}
